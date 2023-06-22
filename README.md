@@ -11,9 +11,9 @@ The field "surname" read in UTF-8 format whereas the field "name" read in UTF-16
 The field "expenditure" read in the Big Endian format whereas the field "income_level" read in the Little Endian format. 
 
 # Usage of Bin2XML 
-Bin2XML <inputfile> < outputfile >.
+'Bin2XML < inputfile > < outputfile >'.
   
-  The first argument, <inputfile> refers to the source filename to be used for the conversion and the second one, <outputfile>, refers to the target XML filename.
+  The first argument, < inputfile > refers to the source filename to be used for the conversion and the second one, < outputfile >, refers to the target XML filename.
   
   The sample command line usage converting from the binary file to XML as 'Bin2XML personList.dat personList.xml'.
   
