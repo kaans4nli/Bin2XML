@@ -7,3 +7,5 @@ Binary file ('personList.dat') consists of some information about the employees 
 For each person that was read from the file, a row number is assigned as the "id" attribute starting from 1 and its value is increased by 1. The element names of "row" in the XML file are found at the beginning of the "personList.dat" file.
 
 The field "surname" read in UTF-8 format whereas the field "name" read in UTF-16 format.
+
+The field "expenditure" read in the Big Endian format whereas the field "income_level" read in the Little Endian format. 
